@@ -8,3 +8,4 @@ foo.*
 data
 *.json
 stylua.toml
+lua/config/secrets.lua

@@ -127,3 +127,6 @@ vim.g.markdown_recommended_style = 0
 -- Auto insert header
 vim.g.enable_file_header = false
 vim.g.header_border_char = "#" -- Set the default border char
+
+-- AI commit message generate
+vim.g.enable_commit_ai = true
