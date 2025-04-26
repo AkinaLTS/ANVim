@@ -16,7 +16,8 @@ return {
         enhance = { icon = "⚡", prefix = "enhance", type = "Enhancement" },
         chore = { icon = "🧹", prefix = "chore", type = "Chore" },
         refactor = { icon = "⚠️", prefix = "refactor", type = "Breaking change" },
-        skipci = { icon = "", prefix = "[skip ci]", type = "Normally change" }
+        new = { icon = "👏", prefix = "new", type = "New file/New article" },
+        skipci = { icon = "", prefix = "[skip ci]", type = "Changes that no needs to be deployed" }
       },
       provider_options = {
         gemini = {
