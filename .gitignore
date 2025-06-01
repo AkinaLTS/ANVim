@@ -8,5 +8,8 @@ foo.*
 data
 *.json
 stylua.toml
+lazy-lock.json
+lazyvim.json
+
 # The file we store secrets, such as api tokens.
 lua/config/secrets.lua
