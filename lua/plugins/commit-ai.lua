@@ -9,6 +9,7 @@ return {
     local secrets = require("config.secrets")
     require('commit-ai').setup {
       icons = false,
+      language = "en",
       git_conventions = {
         docs = { icon = "📖", prefix = "docs", type = "Documentation changes" },
         fix = { icon = "🐛", prefix = "fix", type = "Bug fix" },
@@ -19,7 +20,7 @@ return {
       },
       provider_options = {
         gemini = {
-          model = 'gemini-2.0-flash',
+          model = 'gemini-2.5-flash-preview-04-17',
           api_key = secrets.commit_ai_api_key_gemini or "",
           stream = false,
         },
