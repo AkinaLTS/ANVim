@@ -13,7 +13,7 @@ vim.g.snacks_animate = true
 -- Can be one of: telescope, fzf
 -- Leave it to "auto" to automatically use the picker
 -- enabled with `:LazyExtras`
-vim.g.lazyvim_picker = "auto"
+vim.g.lazyvim_picker = "snacks"
 
 -- LazyVim completion engine to use.
 -- Can be one of: nvim-cmp, blink.cmp
@@ -83,7 +83,7 @@ opt.mouse = "a" -- Enable mouse mode
 opt.number = true -- Print line number
 opt.pumblend = 10 -- Popup blend
 opt.pumheight = 10 -- Maximum number of entries in a popup
-opt.relativenumber = true -- Relative line numbers
+opt.relativenumber = false -- Relative line numbers
 opt.ruler = false -- Disable the default ruler
 opt.scrolloff = 2 -- Lines of context
 opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize", "help", "globals", "skiprtp", "folds" }
