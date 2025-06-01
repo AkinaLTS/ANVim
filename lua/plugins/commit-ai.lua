@@ -20,7 +20,7 @@ return {
       },
       provider_options = {
         gemini = {
-          model = 'gemini-2.5-flash-preview-04-17',
+          model = 'gemini-2.0-flash',
           api_key = secrets.commit_ai_api_key_gemini or "",
           stream = false,
         },
