@@ -129,4 +129,5 @@ vim.g.enable_file_header = false
 vim.g.header_border_char = "#" -- Set the default border char
 
 -- AI commit message generate
+-- You need to configure your gemini token in config/secrets.lua in advance.
 vim.g.enable_commit_ai = true
