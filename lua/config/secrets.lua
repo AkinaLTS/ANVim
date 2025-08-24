@@ -4,5 +4,5 @@
 
 -- The following content is a demonstration.
 return {
-    commit_ai_api_key_gemini = "[YOUR TOKEN]"
+    commit_ai_api_key_gemini = "[YOUR_API_TOKEN]"
 }
